@@ -1,0 +1,4 @@
+killall ssh-agent
+eval $(ssh-agent)
+ssh-add /Users/XXXX/.ssh/id_ecdsa
+ssh ${relay server} -t 'tmux attach-session -t rguo-tmux || tmux new-session -s rguo-tmux'
