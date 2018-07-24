@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/test/.lein/cache/lein-protobuf/protobuf-2.6.1/m4'
+let g:netrw_dirhist_2='/Users/test/projects/mine/leangame/deploy/marathon/game-router-link'
